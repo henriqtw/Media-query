@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscorp Industries</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&family=Orbitron:wght@400;700;900&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <header>
+        <nav class="lista">
+            <ul>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#pesquisas">Pesquisas</a></li>
+                <li><a href="#stats">Números</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+ 
+        <div class="logo-container">
+            <div class="picture">
+                <picture>
+                    <source srcset="./img/banner-mobile.png" media="(max-width: 768px)">
+                    <source srcset="./img/banner-tablet.png" media="(max-width: 1024px)">
+                    <img class="banner" src="./img/banner.png" alt="Oscorp Industries">
+                </picture>
+                <div class="overlay-escuro"></div>
+            </div>
+ 
+            <div class="titulo-container">
+                <h1 class="titulo">OSCORP</h1>
+                <h1 class="titulo2">INDUSTRIES</h1>
+            </div>
+ 
+            <div class="btn-container">
+                <a href="#sobre" class="btn">Saiba Mais</a>
+            </div>
+ 
+            <div class="scroll-indicator" aria-hidden="true">
+                <span>ROLE PARA BAIXO</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </header>
+ 
+    <section class="sobre-secao" id="sobre">
+        <div class="sobre-conteudo">
+            <div class="sobre-texto">
+                <hr class="linha">
+                <h2 class="subtitulo">A Ciência Cita o <span class="destaque-verde">Futuro</span></h2>
+                <p class="paragrafo">
+                    Fundada por Norman Osborn, a <strong>Oscorp Industries</strong> transcende a pesquisa convencional para moldar o destino da humanidade. Como um titã multisetorial, Osborn posiciona a empresa na vanguarda da revolução genômica, pioneira em edição de DNA e regeneração de tecidos.
+                </p>
+                <p class="paragrafo">
+                    Simultaneamente, redefine a inovação global através de redes neurais quânticas e engenharia aeroespacial com materiais de alta resistência. Com mais de 500 patentes anuais e presença em 40 países, Norman Osborn não está apenas inovando; ele está liderando a próxima era industrial.
+                </p>
+                <a href="#servicos" class="btn btn-inline">Nossas Soluções</a>
+            </div>
+ 
+            <div class="carrossel-container">
+                <div class="carrossel">
+                    <div class="slides">
+                        <div class="slide"><img src="./img/Carrossel-1.png" alt="Laboratório 1"></div>
+                        <div class="slide"><img src="./img/Carrossel-2.png" alt="Laboratório 2"></div>
+                        <div class="slide"><img src="./img/Carrossel-3.png" alt="Laboratório 3"></div>
+                        <div class="slide"><img src="./img/Carrossel-4.png" alt="Laboratório 4"></div>
+                    </div>
+                    <div class="carrossel-dots" aria-hidden="true">
+                        <span class="dot d1"></span>
+                        <span class="dot d2"></span>
+                        <span class="dot d3"></span>
+                        <span class="dot d4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="stats-secao" id="stats">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-numero">500<span class="stat-plus">+</span></div>
+                <div class="stat-label">Patentes Anuais</div>
+                <div class="stat-bar"><div class="stat-bar-fill" style="--w:85%"></div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-numero">40</div>
+                <div class="stat-label">Países</div>
+                <div class="stat-bar"><div class="stat-bar-fill" style="--w:70%"></div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-numero">12K<span class="stat-plus">+</span></div>
+                <div class="stat-label">Pesquisadores</div>
+                <div class="stat-bar"><div class="stat-bar-fill" style="--w:95%"></div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-numero">98<span class="stat-plus">%</span></div>
+                <div class="stat-label">Índice de Eficiência</div>
+                <div class="stat-bar"><div class="stat-bar-fill" style="--w:98%"></div></div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="servicos-secao" id="servicos">
+        <div class="secao-header">
+            <hr class="linha">
+            <h2 class="subtitulo">Nossas <span class="destaque-verde">Divisões</span></h2>
+            <p class="paragrafo secao-desc">Atuamos em múltiplas frentes da ciência e tecnologia, sempre com foco na excelência e no avanço da humanidade.</p>
+        </div>
+ 
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="8" stroke="var(--verde)" stroke-width="2"/>
+                        <path d="M30 10 L30 22M30 38 L30 50M10 30 L22 30M38 30 L50 30" stroke="var(--verde)" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="30" cy="10" r="3" fill="var(--verde)"/>
+                        <circle cx="30" cy="50" r="3" fill="var(--verde)"/>
+                        <circle cx="10" cy="30" r="3" fill="var(--verde)"/>
+                        <circle cx="50" cy="30" r="3" fill="var(--verde)"/>
+                    </svg>
+                </div>
+                <h3 class="card-titulo">BioGenética</h3>
+                <p class="card-texto">Edição de DNA de última geração, regeneração de tecidos e terapias genômicas que redefinirão a medicina humana.</p>
+                <div class="card-tag">DIVISÃO ALFA</div>
+            </div>
+ 
+            <div class="card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="10" width="18" height="18" rx="2" stroke="var(--verde)" stroke-width="2"/>
+                        <rect x="32" y="10" width="18" height="18" rx="2" stroke="var(--verde)" stroke-width="2"/>
+                        <rect x="10" y="32" width="18" height="18" rx="2" stroke="var(--verde)" stroke-width="2"/>
+                        <rect x="32" y="32" width="18" height="18" rx="2" stroke="var(--verde)" stroke-width="2"/>
+                        <circle cx="30" cy="30" r="4" fill="var(--verde)"/>
+                    </svg>
+                </div>
+                <h3 class="card-titulo">IA Quântica</h3>
+                <p class="card-texto">Redes neurais quânticas com capacidade de processamento 10.000x superior aos sistemas clássicos.</p>
+                <div class="card-tag">DIVISÃO BETA</div>
+            </div>
+ 
+            <div class="card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30 5 L30 30 L52 42" stroke="var(--verde)" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M30 5 L8 18 L8 42 L30 55 L52 42 L52 18 Z" stroke="var(--verde)" stroke-width="2"/>
+                        <circle cx="30" cy="30" r="5" fill="var(--verde)"/>
+                    </svg>
+                </div>
+                <h3 class="card-titulo">Aeroespacial</h3>
+                <p class="card-texto">Engenharia de materiais avançados e propulsão para a próxima geração de veículos suborbitais.</p>
+                <div class="card-tag">DIVISÃO GAMA</div>
+            </div>
+ 
+            <div class="card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 45 Q30 5 45 45" stroke="var(--verde)" stroke-width="2" fill="none"/>
+                        <path d="M10 35 Q30 15 50 35" stroke="var(--verde)" stroke-width="2" fill="none" opacity="0.6"/>
+                        <circle cx="30" cy="30" r="4" fill="var(--verde)"/>
+                        <line x1="10" y1="48" x2="50" y2="48" stroke="var(--verde)" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3 class="card-titulo">Nanotecnologia</h3>
+                <p class="card-texto">Manipulação molecular precisa para aplicações industriais, médicas e de energia limpa em escala atômica.</p>
+                <div class="card-tag">DIVISÃO DELTA</div>
+            </div>
+ 
+            <div class="card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="20" stroke="var(--verde)" stroke-width="2" stroke-dasharray="4 4"/>
+                        <circle cx="30" cy="30" r="12" stroke="var(--verde)" stroke-width="2"/>
+                        <circle cx="30" cy="30" r="4" fill="var(--verde)"/>
+                        <path d="M30 10 L34 18 L30 16 L26 18 Z" fill="var(--verde)"/>
+                    </svg>
+                </div>
+                <h3 class="card-titulo">Energia Limpa</h3>
+                <p class="card-texto">Fusão nuclear a frio e células solares de 4ª geração com eficiência energética sem precedentes.</p>
+                <div class="card-tag">DIVISÃO ÉPSILON</div>
+            </div>
+ 
+            <div class="card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="15" y="20" width="30" height="22" rx="3" stroke="var(--verde)" stroke-width="2"/>
+                        <path d="M22 20 L22 14 L38 14 L38 20" stroke="var(--verde)" stroke-width="2"/>
+                        <circle cx="30" cy="31" r="5" stroke="var(--verde)" stroke-width="2"/>
+                        <path d="M27 31 L29 33 L33 28" stroke="var(--verde)" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3 class="card-titulo">Segurança Global</h3>
+                <p class="card-texto">Sistemas de defesa e cibersegurança de nível governamental para proteger infraestruturas críticas.</p>
+                <div class="card-tag">CLASSIFICADO</div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="pesquisas-secao" id="pesquisas">
+        <div class="secao-header">
+            <hr class="linha">
+            <h2 class="subtitulo">Nossa <span class="destaque-verde">Trajetória</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item tl-left">
+                <div class="timeline-content">
+                    <span class="timeline-ano">1994</span>
+                    <h3>Fundação</h3>
+                    <p>Norman Osborn funda a Oscorp Industries em Nova York com foco inicial em biotecnologia.</p>
+                </div>
+            </div>
+            <div class="timeline-item tl-right">
+                <div class="timeline-content">
+                    <span class="timeline-ano">2001</span>
+                    <h3>Expansão Global</h3>
+                    <p>Abertura de laboratórios em 15 países. Primeira patente de edição genômica registrada.</p>
+                </div>
+            </div>
+            <div class="timeline-item tl-left">
+                <div class="timeline-content">
+                    <span class="timeline-ano">2010</span>
+                    <h3>Divisão Quântica</h3>
+                    <p>Lançamento da divisão de IA Quântica, revolucionando o processamento de dados científicos.</p>
+                </div>
+            </div>
+            <div class="timeline-item tl-right">
+                <div class="timeline-content">
+                    <span class="timeline-ano">2018</span>
+                    <h3>Marco Aeroespacial</h3>
+                    <p>Primeiro voo suborbital bem-sucedido com material Oscorp-X, 3× mais leve que o titânio.</p>
+                </div>
+            </div>
+            <div class="timeline-item tl-left">
+                <div class="timeline-content">
+                    <span class="timeline-ano">2024</span>
+                    <h3>Era da Nano</h3>
+                    <p>Divisão de Nanotecnologia atinge manipulação atômica precisa, abrindo nova fronteira científica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="contato-secao" id="contato">
+        <div class="secao-header">
+            <hr class="linha">
+            <h2 class="subtitulo">Entre em <span class="destaque-verde">Contato</span></h2>
+            <p class="paragrafo">Junte-se à vanguarda da inovação. Nossa equipe está pronta para colaborar.</p>
+        </div>
+ 
+        <div class="contato-wrapper">
+            <div class="contato-info">
+                <div class="info-item">
+                    <span class="info-icon">◉</span>
+                    <div>
+                        <strong>Sede Principal</strong>
+                        <p>Oscorp Tecnologias, 10º Andar — São Paulo, SP 1004</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">◉</span>
+                    <div>
+                        <strong>Escritório Brasil</strong>
+                        <p>Av. Imaginária, 1000 — São Paulo, SP 01310</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">◉</span>
+                    <div>
+                        <strong>Contato Geral</strong>
+                        <p>contato@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+ 
+            <form class="contato-form" method="post" action="#">
+                <div class="form-group">
+                    <input type="text" id="nome" name="nome" placeholder=" " required>
+                    <label for="nome">Seu Nome</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder=" " required>
+                    <label for="email">E-mail Corporativo</label>
+                </div>
+                <div class="form-group select-wrap">
+                    <select id="divisao" name="divisao">
+                        <option value="">Divisão de Interesse</option>
+                        <option>BioGenética</option>
+                        <option>IA Quântica</option>
+                        <option>Aeroespacial</option>
+                        <option>Nanotecnologia</option>
+                        <option>Energia Limpa</option>
+                        <option>Segurança Global</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder=" " required></textarea>
+                    <label for="mensagem">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-full">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+ 
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2 class="footer-logo">OSCORP</h2>
+                <p>Moldando o futuro da humanidade através da ciência e inovação.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#pesquisas">Pesquisas</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Patentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Redes</h4>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Oscorp Industries. Todos os direitos reservados.</p>
+            <p class="footer-tagline">SCIENCE BUILDS THE FUTURE</p>
+        </div>
+    </footer>
+ 
+</body>
+</html>
